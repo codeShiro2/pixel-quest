@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-labelledby="t d">
+  <title id="t">Handheld console illustration</title>
+  <desc id="d">A handheld game console with a glowing teal screen in the middle, a directional pad on the left and two buttons on the right.</desc>
+  <rect width="400" height="260" fill="#1c1445"/>
+  <rect x="40" y="55" width="320" height="150" rx="22" fill="#ff4fa3" stroke="#fff" stroke-width="4"/>
+  <rect x="115" y="75" width="170" height="110" rx="8" fill="#120d2b" stroke="#00e5c0" stroke-width="4"/>
+  <rect x="125" y="85" width="150" height="90" fill="#0b6e5f"/>
+  <path d="M170 150l15-30 15 30z" fill="#00e5c0"/>
+  <rect x="62" y="118" width="12" height="36" rx="3" fill="#120d2b"/>
+  <rect x="50" y="130" width="36" height="12" rx="3" fill="#120d2b"/>
+  <circle cx="318" cy="125" r="11" fill="#ffd93d"/>
+  <circle cx="338" cy="148" r="11" fill="#4da3ff"/>
+</svg>

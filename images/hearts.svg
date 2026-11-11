@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-labelledby="t d">
+  <title id="t">Pixel art heart and lives counter</title>
+  <desc id="d">Three pixel-art hearts in a row, two filled pink and one empty outline, like a lives bar in a video game.</desc>
+  <rect width="400" height="260" fill="#1c1445"/>
+  <g fill="#ff4fa3">
+    <path d="M40 100h20v-20h30v20h20v20h-20v20h-20v20h-10v-20h-20v-20h-20z" transform="translate(0 20)"/>
+    <path d="M160 100h20v-20h30v20h20v20h-20v20h-20v20h-10v-20h-20v-20h-20z" transform="translate(0 20)"/>
+  </g>
+  <g fill="none" stroke="#ff4fa3" stroke-width="5">
+    <path d="M280 100h20v-20h30v20h20v20h-20v20h-20v20h-10v-20h-20v-20h-20z" transform="translate(0 20)"/>
+  </g>
+  <text x="200" y="40" text-anchor="middle" font-family="Courier New, monospace" font-size="22" fill="#00e5c0">LIVES</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-labelledby="t d">
+  <title id="t">Gold trophy illustration</title>
+  <desc id="d">A golden trophy cup with two handles on a dark base, with small sparkles around it.</desc>
+  <rect width="400" height="260" fill="#1c1445"/>
+  <path d="M140 40h120v70c0 36-26 60-60 60s-60-24-60-60z" fill="#ffd93d" stroke="#fff" stroke-width="4"/>
+  <path d="M140 60h-40c0 40 15 55 45 60M260 60h40c0 40-15 55-45 60" fill="none" stroke="#ffd93d" stroke-width="10"/>
+  <rect x="188" y="168" width="24" height="30" fill="#ffd93d"/>
+  <rect x="150" y="198" width="100" height="22" rx="4" fill="#6c4de6" stroke="#00e5c0" stroke-width="4"/>
+  <path d="M60 60l6 14 14 6-14 6-6 14-6-14-14-6 14-6zM330 160l5 11 11 5-11 5-5 11-5-11-11-5 11-5z" fill="#00e5c0"/>
+</svg>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A table of famous video game consoles with their makers and release years.">
+  <title>Famous Game Consoles | Pixel Quest - A Video Game Fan Site</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="min-h-screen flex flex-col">
+  <header class="site-header">
+    <nav class="max-w-5xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between gap-3" aria-label="Main navigation">
+      <a href="index.html" class="logo">Pixel Quest</a>
+      <ul class="flex flex-wrap gap-2 text-sm list-none m-0 p-0">
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link" href="about.html">About</a></li>
+        <li><a class="nav-link" href="genres.html">Genres</a></li>
+        <li><a class="nav-link" href="history.html">History</a></li>
+        <li><a class="nav-link" href="consoles.html" aria-current="page">Consoles</a></li>
+        <li><a class="nav-link" href="top-picks.html">Top Picks</a></li>
+        <li><a class="nav-link" href="tips.html">Tips</a></li>
+        <li><a class="nav-link" href="links.html">Links</a></li>
+        <li><a class="nav-link" href="glossary.html">Glossary</a></li>
+        <li><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-10 flex-1 w-full">
+    <h1>Famous Game Consoles</h1>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="md:col-span-2">
+        <p>A console is a dedicated machine for playing games, usually connected to a TV. Here are some of the best-known ones, listed by when they first launched.</p>
+        <div class="table-scroll">
+          <table class="data-table">
+            <caption>Well-known consoles and their makers</caption>
+            <thead>
+              <tr>
+                <th scope="col">Console</th>
+                <th scope="col">Maker</th>
+                <th scope="col">First released</th>
+                <th scope="col">Type</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Atari 2600</td><td>Atari</td><td>1977</td><td>Home console</td></tr>
+              <tr><td>Super Nintendo (SNES)</td><td>Nintendo</td><td>1990</td><td>Home console</td></tr>
+              <tr><td>Game Boy</td><td>Nintendo</td><td>1989</td><td>Handheld</td></tr>
+              <tr><td>PlayStation</td><td>Sony</td><td>1994</td><td>Home console</td></tr>
+              <tr><td>Xbox</td><td>Microsoft</td><td>2001</td><td>Home console</td></tr>
+              <tr><td>Wii</td><td>Nintendo</td><td>2006</td><td>Home console</td></tr>
+              <tr><td>Nintendo Switch</td><td>Nintendo</td><td>2017</td><td>Hybrid</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <aside class="card self-start">
+        <figure class="m-0">
+          <img class="figure-img" src="images/handheld.svg" alt="Pink handheld game console with a glowing teal screen, directional pad and two round buttons" width="400" height="260">
+          <figcaption>Handheld consoles let you play anywhere.</figcaption>
+        </figure>
+      </aside>
+    </div>
+
+    <p>Curious how these fit in the bigger picture? Read the <a href="history.html">history timeline</a>.</p>
+  </main>
+
+  <footer class="site-footer">
+    <p class="m-0">&copy; 2026 Pixel Quest. A video game fan site built with HTML, CSS and Tailwind.</p>
+  </footer>
+</body>
+</html>

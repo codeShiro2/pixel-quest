@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-labelledby="t d">
+  <title id="t">Retro joystick illustration</title>
+  <desc id="d">An arcade joystick with a red ball top, a black shaft, and two round buttons on a teal base.</desc>
+  <rect width="400" height="260" fill="#1c1445"/>
+  <rect x="70" y="150" width="260" height="70" rx="14" fill="#00a98f" stroke="#00e5c0" stroke-width="5"/>
+  <rect x="190" y="80" width="20" height="75" fill="#120d2b"/>
+  <circle cx="200" cy="65" r="38" fill="#ff4fa3" stroke="#fff" stroke-width="4"/>
+  <ellipse cx="188" cy="52" rx="10" ry="7" fill="#ffd6ec"/>
+  <circle cx="115" cy="185" r="16" fill="#ffd93d" stroke="#120d2b" stroke-width="4"/>
+  <circle cx="285" cy="185" r="16" fill="#4da3ff" stroke="#120d2b" stroke-width="4"/>
+</svg>

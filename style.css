@@ -1,0 +1,366 @@
+/* ==========================================================
+   Pixel Quest - shared theme for ALL pages
+   Tailwind (CDN) handles layout utilities; this file holds
+   the common look and feel: colors, fonts, nav, cards,
+   tables, forms and footer.
+   ========================================================== */
+
+:root {
+  --bg: #120d2b;
+  --bg-soft: #1c1445;
+  --panel: #251a5c;
+  --accent: #00e5c0;
+  --accent-2: #ff4fa3;
+  --text: #ece9ff;
+  --muted: #b3acd9;
+  --border: #3b2f85;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  background-image: radial-gradient(circle at 20% 0%, #2a1c6e 0%, transparent 45%),
+    radial-gradient(circle at 90% 100%, #3a1459 0%, transparent 40%);
+  background-attachment: fixed;
+  color: var(--text);
+  font-family: "Trebuchet MS", "Segoe UI", Tahoma, sans-serif;
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 0.5px;
+  line-height: 1.25;
+}
+
+h1 {
+  color: var(--accent);
+  font-size: 2.2rem;
+  margin: 0 0 1rem;
+  text-shadow: 3px 3px 0 #000;
+}
+
+h2 {
+  color: var(--accent-2);
+  font-size: 1.5rem;
+  margin: 2rem 0 0.75rem;
+}
+
+h3 {
+  color: var(--accent);
+  font-size: 1.15rem;
+  margin: 0 0 0.5rem;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover,
+a:focus {
+  color: var(--accent-2);
+}
+
+/* ---------- Header & navigation ---------- */
+.site-header {
+  background: var(--bg-soft);
+  border-bottom: 4px solid var(--accent);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--accent);
+  text-decoration: none;
+  text-shadow: 2px 2px 0 var(--accent-2);
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  padding: 0.25rem 0.6rem;
+  border-radius: 0.4rem;
+  border: 2px solid transparent;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--bg);
+  background: var(--accent);
+}
+
+.nav-link[aria-current="page"] {
+  border-color: var(--accent-2);
+  color: var(--accent-2);
+}
+
+.nav-link[aria-current="page"]:hover {
+  color: var(--bg);
+}
+
+/* ---------- Cards & buttons ---------- */
+.card {
+  background: var(--panel);
+  border: 2px solid var(--border);
+  border-radius: 0.9rem;
+  padding: 1.25rem;
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.45);
+}
+
+.card-link {
+  display: block;
+  text-decoration: none;
+  color: var(--text);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.card-link:hover,
+.card-link:focus {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.btn {
+  display: inline-block;
+  background: var(--accent);
+  color: var(--bg);
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.7rem 1.4rem;
+  cursor: pointer;
+  box-shadow: 4px 4px 0 var(--accent-2);
+  font-size: 1rem;
+}
+
+.btn:hover,
+.btn:focus {
+  background: var(--accent-2);
+  color: #fff;
+  box-shadow: 4px 4px 0 var(--accent);
+}
+
+.figure-img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.6rem;
+  background: var(--bg-soft);
+  border: 2px solid var(--border);
+}
+
+figcaption {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 0.4rem;
+}
+
+/* ---------- Lists ---------- */
+.content-list {
+  margin: 0 0 1rem 1.25rem;
+  padding: 0;
+}
+
+.content-list li {
+  margin-bottom: 0.4rem;
+}
+
+.tag {
+  display: inline-block;
+  background: var(--bg);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  padding: 0.1rem 0.7rem;
+  font-size: 0.8rem;
+  margin: 0 0.3rem 0.3rem 0;
+}
+
+/* ---------- Tables ---------- */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--panel);
+  border: 2px solid var(--border);
+  margin-bottom: 1.5rem;
+}
+
+.data-table caption {
+  caption-side: top;
+  text-align: left;
+  font-family: "Courier New", Courier, monospace;
+  color: var(--accent);
+  padding: 0.5rem 0;
+  font-weight: bold;
+}
+
+.data-table th,
+.data-table td {
+  padding: 0.65rem 0.8rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+.data-table th {
+  background: var(--bg-soft);
+  color: var(--accent);
+}
+
+.data-table tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.data-table tbody tr:hover {
+  background: rgba(0, 229, 192, 0.12);
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+/* ---------- Forms ---------- */
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  color: var(--accent);
+}
+
+.form-field {
+  width: 100%;
+  background: var(--bg);
+  color: var(--text);
+  border: 2px solid var(--border);
+  border-radius: 0.5rem;
+  padding: 0.6rem 0.8rem;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.form-field:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(0, 229, 192, 0.35);
+}
+
+fieldset {
+  border: 2px solid var(--border);
+  border-radius: 0.6rem;
+  padding: 0.8rem 1rem;
+  margin: 0 0 1.2rem;
+}
+
+legend {
+  color: var(--accent);
+  font-weight: bold;
+  padding: 0 0.4rem;
+}
+
+/* ---------- Footer ---------- */
+.site-footer {
+  background: var(--bg-soft);
+  border-top: 4px solid var(--accent-2);
+  color: var(--muted);
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.site-footer a {
+  color: var(--accent);
+}
+
+/* ==========================================================
+   Layout fallback
+   Plain-CSS versions of the Tailwind utility classes used in
+   the pages, so the layout still works if the Tailwind CDN
+   script cannot load (offline, blocked network, etc.).
+   ========================================================== */
+.flex { display: flex; }
+.grid { display: grid; }
+.flex-col { flex-direction: column; }
+.flex-wrap { flex-wrap: wrap; }
+.flex-1 { flex: 1 1 0%; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.self-start { align-self: flex-start; }
+.gap-2 { gap: 0.5rem; }
+.gap-3 { gap: 0.75rem; }
+.gap-5 { gap: 1.25rem; }
+.gap-8 { gap: 2rem; }
+.list-none { list-style: none; }
+.m-0 { margin: 0; }
+.p-0 { padding: 0; }
+.mt-6 { margin-top: 1.5rem; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+.px-4 { padding-left: 1rem; padding-right: 1rem; }
+.py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+.py-10 { padding-top: 2.5rem; padding-bottom: 2.5rem; }
+.max-w-5xl { max-width: 64rem; }
+.w-full { width: 100%; }
+.min-h-screen { min-height: 100vh; }
+.text-sm { font-size: 0.875rem; line-height: 1.25rem; }
+.text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+
+.grid { grid-template-columns: minmax(0, 1fr); }
+
+@media (min-width: 640px) {
+  .sm\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .md\:col-span-2 { grid-column: span 2 / span 2; }
+}
+
+@media (min-width: 1024px) {
+  .lg\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+.mb-4 { margin-bottom: 1rem; }
+.max-w-2xl { max-width: 42rem; }
+
+/* ==========================================================
+   Tailwind reset overrides
+   Tailwind's built-in reset removes heading sizes, paragraph
+   spacing, link colors and list bullets. These rules use a
+   slightly higher specificity so the site theme still wins.
+   ========================================================== */
+html body { line-height: 1.65; }
+body h1,
+body h2,
+body h3 { font-weight: bold; font-family: "Courier New", Courier, monospace; letter-spacing: 0.5px; line-height: 1.25; }
+body h1 { color: var(--accent); font-size: 2.2rem; margin: 0 0 1rem; }
+body h2 { color: var(--accent-2); font-size: 1.5rem; margin: 2rem 0 0.75rem; }
+body h3 { color: var(--accent); font-size: 1.15rem; margin: 0 0 0.5rem; }
+body p { margin: 0 0 1rem; }
+body a { color: var(--accent); text-decoration: underline; }
+body a:hover,
+body a:focus { color: var(--accent-2); }
+body fieldset { border: 2px solid var(--border); border-radius: 0.6rem; padding: 0.8rem 1rem; margin: 0 0 1.2rem; }
+body legend { padding: 0 0.4rem; }
+ul.content-list { list-style: disc; }
+ol.content-list { list-style: decimal; }
+
+.mb-4 { margin-bottom: 1rem; }
+.max-w-2xl { max-width: 42rem; }

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="How to get in touch with Pixel Quest by email.">
+  <title>Contact | Pixel Quest - A Video Game Fan Site</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="min-h-screen flex flex-col">
+  <header class="site-header">
+    <nav class="max-w-5xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between gap-3" aria-label="Main navigation">
+      <a href="index.html" class="logo">Pixel Quest</a>
+      <ul class="flex flex-wrap gap-2 text-sm list-none m-0 p-0">
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link" href="about.html">About</a></li>
+        <li><a class="nav-link" href="genres.html">Genres</a></li>
+        <li><a class="nav-link" href="history.html">History</a></li>
+        <li><a class="nav-link" href="consoles.html">Consoles</a></li>
+        <li><a class="nav-link" href="top-picks.html">Top Picks</a></li>
+        <li><a class="nav-link" href="tips.html">Tips</a></li>
+        <li><a class="nav-link" href="links.html">Links</a></li>
+        <li><a class="nav-link" href="glossary.html">Glossary</a></li>
+        <li><a class="nav-link" href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-10 flex-1 w-full">
+    <h1>Contact</h1>
+    <p>Have a question, a correction or a game you think belongs on the site? Send an email and it will be read.</p>
+
+    <div class="card max-w-2xl">
+      <h3>Email</h3>
+      <p class="m-0"><a href="mailto:alfredchristine2018@gmail.com">alfredchristine2018@gmail.com</a></p>
+    </div>
+
+    <h2>Send a message</h2>
+    <form class="card max-w-2xl" action="mailto:alfredchristine2018@gmail.com" method="post" enctype="text/plain">
+      <div class="mb-4">
+        <label class="form-label" for="name">Your name</label>
+        <input class="form-field" type="text" id="name" name="name" placeholder="Player One" required>
+      </div>
+
+      <div class="mb-4">
+        <label class="form-label" for="email">Your email</label>
+        <input class="form-field" type="email" id="email" name="email" placeholder="you@example.com" required>
+      </div>
+
+      <div class="mb-4">
+        <label class="form-label" for="topic">Topic</label>
+        <select class="form-field" id="topic" name="topic">
+          <option value="question">A question</option>
+          <option value="correction">A correction</option>
+          <option value="game">A game suggestion</option>
+          <option value="other">Something else</option>
+        </select>
+      </div>
+
+      <div class="mb-4">
+        <label class="form-label" for="message">Message</label>
+        <textarea class="form-field" id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+      </div>
+
+      <button class="btn" type="submit">Send message</button>
+    </form>
+
+    <h2>Before you write</h2>
+    <ul class="content-list">
+      <li>Mention which page your message is about.</li>
+      <li>For game suggestions, include the title and genre.</li>
+      <li>Please don't send personal details you wouldn't want shared.</li>
+    </ul>
+    <p>Looking for answers first? Try the <a href="glossary.html">glossary</a> or the <a href="tips.html">tips page</a>.</p>
+  </main>
+
+  <footer class="site-footer">
+    <p class="m-0">&copy; 2026 Pixel Quest. A video game fan site built with HTML, CSS and Tailwind.</p>
+  </footer>
+</body>
+</html>

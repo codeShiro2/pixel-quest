@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-labelledby="t d">
+  <title id="t">Game controller illustration</title>
+  <desc id="d">A purple game controller with a cross-shaped directional pad on the left and four colored buttons on the right.</desc>
+  <rect width="400" height="260" fill="#1c1445"/>
+  <path d="M95 70 H305 C350 70 375 120 380 180 C384 215 355 230 335 215 C315 200 305 180 285 180 H115 C95 180 85 200 65 215 C45 230 16 215 20 180 C25 120 50 70 95 70 Z" fill="#6c4de6" stroke="#00e5c0" stroke-width="6"/>
+  <rect x="85" y="105" width="22" height="66" rx="5" fill="#120d2b"/>
+  <rect x="63" y="127" width="66" height="22" rx="5" fill="#120d2b"/>
+  <circle cx="295" cy="115" r="13" fill="#ff4fa3"/>
+  <circle cx="295" cy="160" r="13" fill="#00e5c0"/>
+  <circle cx="272" cy="138" r="13" fill="#ffd93d"/>
+  <circle cx="318" cy="138" r="13" fill="#4da3ff"/>
+  <rect x="165" y="125" width="28" height="12" rx="6" fill="#120d2b"/>
+  <rect x="207" y="125" width="28" height="12" rx="6" fill="#120d2b"/>
+</svg>

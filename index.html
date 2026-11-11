@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pixel Quest is a fan site about video games: genres, history, consoles and favorite picks.">
+  <title>Home | Pixel Quest - A Video Game Fan Site</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="min-h-screen flex flex-col">
+  <header class="site-header">
+    <nav class="max-w-5xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between gap-3" aria-label="Main navigation">
+      <a href="index.html" class="logo">Pixel Quest</a>
+      <ul class="flex flex-wrap gap-2 text-sm list-none m-0 p-0">
+        <li><a class="nav-link" href="index.html" aria-current="page">Home</a></li>
+        <li><a class="nav-link" href="about.html">About</a></li>
+        <li><a class="nav-link" href="genres.html">Genres</a></li>
+        <li><a class="nav-link" href="history.html">History</a></li>
+        <li><a class="nav-link" href="consoles.html">Consoles</a></li>
+        <li><a class="nav-link" href="top-picks.html">Top Picks</a></li>
+        <li><a class="nav-link" href="tips.html">Tips</a></li>
+        <li><a class="nav-link" href="links.html">Links</a></li>
+        <li><a class="nav-link" href="glossary.html">Glossary</a></li>
+        <li><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-10 flex-1 w-full">
+    <section class="grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h1>Welcome to Pixel Quest</h1>
+        <p class="text-lg">Press start! This is a little corner of the internet for everyone who loves video games, from tiny arcade classics to huge modern adventures.</p>
+        <p>Explore the genres, travel through gaming history, compare consoles, and see a list of top-rated games. Pick a page below and jump in.</p>
+        <a class="btn" href="genres.html">Start exploring</a>
+      </div>
+      <figure class="m-0">
+        <img class="figure-img" src="images/controller.svg" alt="Purple game controller with a cross-shaped directional pad and four colored buttons" width="400" height="260">
+        <figcaption>Every adventure starts with a controller in your hands.</figcaption>
+      </figure>
+    </section>
+
+    <h2>Where do you want to go?</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <a class="card card-link" href="about.html"><h3>About</h3><p class="m-0">What this site covers and why games matter.</p></a>
+      <a class="card card-link" href="genres.html"><h3>Genres</h3><p class="m-0">Platformers, RPGs, shooters and more.</p></a>
+      <a class="card card-link" href="history.html"><h3>History</h3><p class="m-0">A timeline from arcades to today.</p></a>
+      <a class="card card-link" href="consoles.html"><h3>Consoles</h3><p class="m-0">A table of famous game systems.</p></a>
+      <a class="card card-link" href="top-picks.html"><h3>Top Picks</h3><p class="m-0">Top-rated games and scores.</p></a>
+      <a class="card card-link" href="tips.html"><h3>Tips</h3><p class="m-0">Play smarter and stay healthy.</p></a>
+      <a class="card card-link" href="links.html"><h3>Links</h3><p class="m-0">Useful gaming sites around the web.</p></a>
+      <a class="card card-link" href="glossary.html"><h3>Glossary</h3><p class="m-0">Gaming terms explained simply.</p></a>
+      <a class="card card-link" href="contact.html"><h3>Contact</h3><p class="m-0">Get in touch by email.</p></a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p class="m-0">&copy; 2026 Pixel Quest. A video game fan site built with HTML, CSS and Tailwind.</p>
+  </footer>
+</body>
+</html>

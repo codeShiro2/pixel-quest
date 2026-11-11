@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Top-rated video games with genre and rating.">
+  <title>Top Game Picks | Pixel Quest - A Video Game Fan Site</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="min-h-screen flex flex-col">
+  <header class="site-header">
+    <nav class="max-w-5xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between gap-3" aria-label="Main navigation">
+      <a href="index.html" class="logo">Pixel Quest</a>
+      <ul class="flex flex-wrap gap-2 text-sm list-none m-0 p-0">
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link" href="about.html">About</a></li>
+        <li><a class="nav-link" href="genres.html">Genres</a></li>
+        <li><a class="nav-link" href="history.html">History</a></li>
+        <li><a class="nav-link" href="consoles.html">Consoles</a></li>
+        <li><a class="nav-link" href="top-picks.html" aria-current="page">Top Picks</a></li>
+        <li><a class="nav-link" href="tips.html">Tips</a></li>
+        <li><a class="nav-link" href="links.html">Links</a></li>
+        <li><a class="nav-link" href="glossary.html">Glossary</a></li>
+        <li><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-10 flex-1 w-full">
+    <h1>Top Game Picks</h1>
+    <p>A short list of well-loved games across different genres, with a rating for each.</p>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="md:col-span-2">
+        <div class="table-scroll">
+          <table class="data-table">
+            <caption>Top-rated games</caption>
+            <thead>
+              <tr>
+                <th scope="col">Rank</th>
+                <th scope="col">Game</th>
+                <th scope="col">Genre</th>
+                <th scope="col">Rating</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>1</td><td>Minecraft</td><td>Sandbox</td><td>10 / 10</td></tr>
+              <tr><td>2</td><td>Tetris</td><td>Puzzle</td><td>9 / 10</td></tr>
+              <tr><td>3</td><td>Stardew Valley</td><td>Farming sim</td><td>9 / 10</td></tr>
+              <tr><td>4</td><td>Portal 2</td><td>Puzzle</td><td>9 / 10</td></tr>
+              <tr><td>5</td><td>Celeste</td><td>Platformer</td><td>8 / 10</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>Why these?</h2>
+        <ul class="content-list">
+          <li><strong>Creative freedom:</strong> Players can build whatever they imagine.</li>
+          <li><strong>Easy to learn:</strong> Simple rules but endless depth.</li>
+          <li><strong>Relaxing:</strong> Great for winding down after a long day.</li>
+        </ul>
+      </div>
+      <aside class="card self-start">
+        <figure class="m-0">
+          <img class="figure-img" src="images/trophy.svg" alt="Golden trophy cup with two handles on a purple base, surrounded by teal sparkles" width="400" height="260">
+          <figcaption>The winners of the leaderboard.</figcaption>
+        </figure>
+      </aside>
+    </div>
+
+    <p>Not sure what type of game you like? Check the <a href="genres.html">genres page</a> first.</p>
+  </main>
+
+  <footer class="site-footer">
+    <p class="m-0">&copy; 2026 Pixel Quest. A video game fan site built with HTML, CSS and Tailwind.</p>
+  </footer>
+</body>
+</html>
